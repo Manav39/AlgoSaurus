@@ -35,6 +35,7 @@ import {
   FiChevronDown,
 } from 'react-icons/fi'
 import { IconType } from 'react-icons'
+import App from '../App';
 
 
 // NavItemProps
@@ -85,7 +86,7 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
       {...rest}>
       <Flex h="20" alignItems="center" mx="8" justifyContent="space-between">
         <Text fontSize="2xl" fontFamily="monospace" fontWeight="bold">
-          Quiz App
+          Learn DSA
         </Text>
         <CloseButton display={{ base: 'flex', md: 'none' }} onClick={onClose} />
       </Flex>
@@ -267,3 +268,4 @@ const SideBar = (props) => {
 };
 
 export default SideBar;
+
