@@ -20,7 +20,7 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <Container maxW="container.xl" centerContent>
+      <Container maxW="100%" centerContent>
         <Stack spacing={8} textAlign="center">
           <Heading fontSize="4xl">Welcome to AlgoQuiz - Master DSA with MCQ Quizzes!</Heading>
           <Text>

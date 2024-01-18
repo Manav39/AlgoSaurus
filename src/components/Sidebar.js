@@ -67,7 +67,8 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
   let LinkItems: Array<LinkItemProps> = [] 
 
   LinkItems = [
-    { name: 'Dashboard', icon: FiHome },
+    { name: 'Home', icon: FiHome },
+    { name: 'Dashboard', icon: FiTrendingUp },
     { name: 'Quiz', icon: FiStar },
     { name: 'Community', icon: FiStar },
     { name: 'About Us', icon: FiStar },

@@ -34,7 +34,7 @@ const Navbar = () => {
             <Flex>
               <chakra.a
                 href="/"
-                title="Choc Home Page"
+                title="Home Page"
                 display="flex"
                 alignItems="center"
               >
@@ -42,7 +42,7 @@ const Navbar = () => {
                 <VisuallyHidden>Choc</VisuallyHidden>
               </chakra.a>
               <chakra.h1 fontSize="xl" fontWeight="medium" ml="2">
-                Choc
+                AlgoQuiz
               </chakra.h1>
             </Flex>
             <HStack display="flex" alignItems="center" spacing={1}>

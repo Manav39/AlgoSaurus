@@ -1,16 +1,14 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
+import Quiz from "./pages/Quiz";
 import SideBar from "./components/Sidebar";
 
 function App() {
   return (
-    <>
-      <SideBar></SideBar>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </>
+    <Routes>
+      <Route path="/" element={<SideBar><Home /></SideBar>} />
+    </Routes>
   );
 }
 
